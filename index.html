@@ -3,40 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Bootstrap Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
-  <header>
-    
-    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+    <header>
         <h1 id="name">Brad Hoffman</h1>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a> |
-            <a class="nav-item nav-link active" href="#">Portfolio</a> |
-            <a class="nav-item nav-link active" href="#">Contact</a>
-          </div>
-        </div>
-      </nav>
-  </header>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+    </header>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        About Me
+      <div class="col-md-1"></div>
+      <div class="wrapper col-md-10">
+        <h2 class="title">About Me</h2>
+        <hr>
+        <img id="about-image" src="assets/images/avatar.png" alt="About Me Picture">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, neque. Dolore vel quam fugit ullam rerum. Veniam id assumenda, consequuntur molestias error voluptatum odit consectetur officia blanditiis debitis praesentium maxime.
+        Nostrum accusamus sit quam, ab, nam praesentium commodi ad reprehenderit magnam aspernatur culpa delectus fugit maxime possimus saepe iste exercitationem modi omnis doloremque natus! Reprehenderit itaque ex architecto libero quaerat!
+        Tempore iure, temporibus harum at labore animi aut facilis quae minima laboriosam praesentium, molestiae dicta voluptates aliquam corporis culpa eos sint vel cumque impedit fugit! Vero beatae aliquam corrupti quos?</p>
       </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-md-12">
-        <img id="about-image" src="../Basic-Portfolio/assets/images/avatar.png" alt="About Me Picture">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sequi vero veritatis labore quam odio dolorem architecto. Dolorum, cum sapiente, aliquid quasi pariatur harum commodi facilis debitis mollitia, quisquam iste!</p>
-      </div>
+      <div class="col-md-1"></div>
     </div>
   </div>
 
+  <footer>
+    <div class="footer">
+      @Copyright
+    </div>
+  </footer>
 </body>
 
 

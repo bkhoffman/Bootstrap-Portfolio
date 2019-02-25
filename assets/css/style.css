@@ -18,6 +18,10 @@ body{
   background-image: url(../images/white-waves.png);
 }
 
+.container{
+  margin-bottom: 100px;
+}
+
 h1{
   border-style: solid;
   border-width: 1px;
@@ -86,6 +90,32 @@ hr{
   color: #dddddd;
   font-size: 12px;
   text-align: center;
+}
+
+.btn{
+  color: white;
+  background-color: #4aaaa5;
+}
+
+.image-container{
+  float: left;
+  margin: 20px;
+}
+
+.port-image{
+  width: 250px;
+  height: 250px;
+}
+
+.banner{
+  position: relative;
+  width: 250px;
+  bottom: 85px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  color: white;
+  background-color: #4aaaa5;
 }
 
 /*header{

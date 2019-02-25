@@ -39,6 +39,14 @@ h1{
   float: right;
 }
 
+.nav-link{
+  color: #777777;
+}
+.nav-link:hover{
+  color: red;
+}
+
+
 hr{
   border: solid 1px #cccccc;
   margin-bottom: 20px;

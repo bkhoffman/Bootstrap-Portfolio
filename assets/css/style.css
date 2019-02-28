@@ -25,7 +25,7 @@ h1{
   border-style: solid;
   border-width: 1px;
   border-color: #dddddd;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-bottom: 0px;
   padding: 20px;
   color:white;
@@ -34,17 +34,16 @@ h1{
 
 .navbar{
   margin-top: 30px;
-  margin-right: 160px;
+  margin-right: 90px;
   float: right;
 }
 
-.nav-link{
+href{
   color: #777777;
 }
-.nav-link:hover{
+href:hover{
   color: red;
 }
-
 
 hr{
   border: solid 1px #cccccc;

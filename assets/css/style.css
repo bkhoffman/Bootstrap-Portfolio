@@ -11,20 +11,14 @@ header{
 }
 
 body{
-  margin: 0px 0px 0px 0px;
+  margin: auto;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   background-image: url(../images/white-waves.png);
 }
 
-.main-card{
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-
 .container{
-  margin-bottom: 100px;
+  margin: 30px auto 100px auto;
 }
 
 h1{
@@ -38,14 +32,10 @@ h1{
   background-color: #4aaaa5;
 }
 
-.nav{
+.navbar{
   margin-top: 30px;
   margin-right: 160px;
   float: right;
-}
-#verts{
-  padding-top: 7px;
-  color: #777777;
 }
 
 .nav-link{
